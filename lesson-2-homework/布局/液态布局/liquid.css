@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+header { 
+	background: #DDDDDD;
+	padding: 0 10px;
+} 
+header h1 {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.sidebar1 {
+	float: left; 
+	width: 24%;
+	background: #EBEBEB;
+    padding: 15px 10px;
+}
+
+.mainContent {
+    margin: 0 0 0 24%;
+    padding: 0 10px 0 30px;
+} 
+
+footer { 
+	padding: 0 10px;
+	background:#DDDDDD;
+}

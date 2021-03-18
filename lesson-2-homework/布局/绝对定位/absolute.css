@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+    position: relative;
+}
+header {
+    height: 60px;
+    line-height: 60px;
+	background: #DDDDDD; 
+	padding: 0 10px 0 20px;
+}
+header h1 {
+    margin: 0;
+}
+.sidebar1 {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 150px;
+	background: #EBEBEB;
+	padding: 15px 10px 15px 20px;
+}
+.sidebar2 {
+	position: absolute;
+	top: 60px;
+	right: 0;
+	width: 160px;
+	background: #EBEBEB;
+	padding: 15px 10px 15px 20px;
+}
+.mainContent { 
+	margin: 0 200px;
+	padding: 0 10px;
+}
+footer { 
+	padding: 0 10px 0 20px;
+	background:#DDDDDD;
+}

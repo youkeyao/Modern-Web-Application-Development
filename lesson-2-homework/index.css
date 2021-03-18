@@ -1,0 +1,124 @@
+@keyframes zoom{
+    from {font-size: 32px;}
+    to {font-size: 50px;}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+	background-image: radial-gradient(circle 250px at center, #93d1d4 0%, #73a6b3 47%, #2d9b9b 100%);
+}
+
+nav{
+    overflow: hidden;
+    position: relative;
+    padding: 0 30px;
+    height: 100%;
+    width: 0;
+    transition: all 0.8s cubic-bezier(.8, 0, .33, 1);
+    border-radius: 0% 0% 100% 50%;
+    z-index: 1;
+}
+nav.nav_open {
+    width: 20%;
+    border-radius: 0% 0% 0% 0%;
+	background: rgba(255, 255, 255, 0.5);
+}
+nav .menubtn {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 30px;
+    cursor: pointer;
+    z-index: 2;
+}
+nav .menubtn .line {
+    width: 30px;
+    background: #fff;
+    height: 2px;
+    margin: 5px 0;
+    transition: all 700ms cubic-bezier(.9, 0, .33, 1);
+}
+nav .menubtn .line.line_1 {
+    width: 30px;
+    transform: rotate(0) translateY(0);
+}
+nav .menubtn .line.line_1.line_cross {
+    width: 30px;
+    transform: rotate(45deg) translateY(10px);
+	background: rgba(0,0,0,0.6);
+}
+nav .menubtn .line.line_2 {
+    width: 28px;
+    transform: translateX(0);
+}
+nav .menubtn .line.line_2.line_none {
+    width: 28px;
+    transform: translate(30px);
+    opacity: 0;
+}
+nav .menubtn .line.line_3 {
+    width: 20px;
+    transform: rotate(0) translateY(0);
+}
+nav .menubtn .line.line_3.line_cross {
+    width: 30px;
+    transform: rotate(-45deg) translateY(-10px);
+	background: rgba(0,0,0,0.6);
+}
+nav .category {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-1000px);
+    opacity: 0;
+    transition: all 900ms cubic-bezier(.9, 0, .33, 1);
+}
+nav .category.fade_in {
+    opacity: 1;
+    transform: translateX(0px);
+}
+nav .category .link {
+    margin: 20px 0;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: all 0.2s cubic-bezier(.9, 0, .33, 1);
+}
+nav .category .link:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+main{
+    width: 100%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+main h1{
+    user-select: none;
+    font-family: sans-serif;;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 20px rgba(0,0,0,0.6);
+    cursor: pointer;
+    transition: font-size 2s;
+}
+main h1:hover{
+    font-size: 45px;
+}

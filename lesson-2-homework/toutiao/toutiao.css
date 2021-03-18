@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    min-width: 1170px;;
+    line-height: 34px;
+    font-size: 14px;
+    height: 34px;
+    background-color: #222;
+    margin-bottom: 16px;
+}
+header a{
+    padding: 0px 10px;
+    color: white;
+    float: left;
+}
+header .leftnav{
+    float: left;
+}
+header .weather{
+    padding-left: 7px;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+}
+header .weather span{
+    margin-right: 11px;
+}
+header .separate{
+    border-right: 1px solid #3a3a3a;
+}
+header .rightnav{
+    float: right;
+}
+
+main{
+    width: 1170px;
+    margin: 16px auto 0;
+    padding: 0;
+    font-size: 0;
+}
+
+main .category{
+    display: inline-block;
+    width: 110px;
+    height: 600px;
+    vertical-align: top;
+    margin-right: 30px;
+    background-color: transparent;
+}
+main .category img{
+    width: 108px;
+    height: 27px;
+    cursor: pointer;
+    margin-bottom: 17px;
+}
+main .category .list{
+    display: block;
+    width: 110px;
+}
+main .category a{
+    display: block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    transition: color,background-color 0.1s ease;
+}
+main .category a:hover{
+    color: white;
+    background-color: #ed4040;
+}
+main .category .list .select{
+    background-color: #ed4040;
+    color: white;
+}
+
+main .content{
+    display: inline-block;
+    width: 660px;
+    height: 1000px;
+}
+main .content .simplenews{
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+main .content .news{
+    height: 102px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+main .content .title{
+    display: block;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    font-weight: 700;
+    color: #222;
+}
+main .content .title:hover{
+    color: #0c619e;
+}
+main .content .footer{
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+main .content .leftfooter{
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+    line-height: 20px;
+}
+main .content .rightfooter{
+    float: right;
+    cursor: pointer;
+    font-size: 12px;
+    color: #999;
+    line-height: 1;
+    padding-right: 5px;
+}
+main .content .newsleft{
+    width: 158px;
+    height: 102px;
+    margin-right: 16px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+main .content .resource{
+    width: 158px;
+    height: 102px;
+    text-align: center;
+}
+main .content .time{
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    padding: 0 6px;
+    border-radius: 10px;
+    background: rgba(0,0,0,.7);
+    font-style: normal;
+    font-size: 12px;
+    color: #fff;
+    height: 22px;
+    line-height: 22px;
+}
+main .content .newsright{
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+main .content .newstext{
+    display: inline-block;
+    width: 100%;
+}
+main .content .video{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #ff7920!important;
+    margin-right: 10px;
+    padding: 1px 2px;
+    border: 1px solid #ff7920!important;
+    vertical-align: middle;
+}
+main .content .finance{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #b5743a!important;
+    margin-right: 10px;
+    padding: 1px 2px;
+    border: 1px solid #b5743a!important;
+    vertical-align: middle;
+}
+main .content .society{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #41baad!important;
+    margin-right: 10px;
+    padding: 1px 2px;
+    border: 1px solid #41baad!important;
+    vertical-align: middle;
+}
+main .content .politics{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #87a5b5!important;
+    margin-right: 10px;
+    padding: 1px 2px;
+    border: 1px solid #87a5b5!important;
+    vertical-align: middle;
+}
+main .content .media{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #87a5b5!important;
+    margin-right: 10px;
+    padding: 1px 2px;
+    border: 1px solid #87a5b5!important;
+    vertical-align: middle;
+}
+main .content .infoicon{
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: middle;
+    cursor: pointer;
+}
+main .content .info{
+    display: inline-block;
+    color: #777;
+    font-size: 14px;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+main .right{
+    float: right;
+    width: 340px;
+    height: 1000px;
+}
+main .right .search_input{
+    width: 240px;
+    height: 36px;
+    font-size: 14px;
+    padding: 4px 10px 2px;
+    color: #1f2d3d;
+    background-color: #f5f6f7;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px 0 0 4px;
+    outline: 0;
+}
+main .right .search_bt{
+    color: #fff;
+    height: 44px;
+    font-size: 14px;
+    background-color: #208eda;
+    border: 1px solid #208eda;
+    border-radius: 0 4px 4px 0;
+    position: relative;
+    left: -1px;
+    padding: 12px 24px 11px;
+    outline: none;
+    cursor: pointer;
+}
+main .right .login{
+    margin: 16px 0;
+    padding: 20px 20px 12px;
+    background: #f4f5f6;
+}
+main .right .login_in{
+    height: 161px;
+    padding: 20px 28px 15px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    letter-spacing: 0;
+}
+main .right .login_msg{
+    margin: 0;
+    font-size: 12px;
+    line-height: 17px;
+    color: #777;
+}
+main .right .login_bt{
+    display: block;
+    width: 240px;
+    height: 40px;
+    margin: 16px 0 14px 1px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    background: #ed4040;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main .right .login_bt:hover{
+    background-color: #BB7444;
+}
+main .right .login_other{
+    padding: 0;
+    display: block;
+}
+main .right .login_other span{
+    position: absolute;
+    left: 6px;
+    top: 41px;
+    width: 24px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #777;
+}
+main .right .QQ{
+    margin-right: 24px;
+    display: inline-block;
+    position: relative;
+    width: 36px;
+    height: 58px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100% 36px;
+    background-image: url(https://sf3-scmcdn-tos.pstatp.com/obj/goofy/toutiao/toutiao_web_pc/svgs/icon_qq_pc.83d80076.svg)
+}
+main .right .Weixin{
+    display: inline-block;
+    position: relative;
+    width: 36px;
+    height: 58px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100% 36px;
+    background-image: url(https://sf3-scmcdn-tos.pstatp.com/obj/goofy/toutiao/toutiao_web_pc/svgs/icon_weixin_pc.7eab8c3d.svg)
+}
+main .right .addition{
+    width: 300px;
+    border-top: 2px solid #ed4040;
+    background-color: #f4f5f6;
+    margin-bottom: 18px;
+    padding: 17px 20px 20px;
+}
+main .right .addition_title{
+    color: #222;
+    padding: 0;
+    line-height: 20px;
+    margin: 0 0 18px 0;
+    padding-top: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+main .right .link{
+    overflow: hidden;
+    margin: 0 -20px -20px 0;
+    padding: 0;
+}
+main .right .link li{
+    float: left;
+    margin: 0 20px 20px 0;
+    list-style: none;
+}
+main .right .link li a{
+    color: #777;
+    line-height: 1.4;
+    font-size: 14px;
+}
