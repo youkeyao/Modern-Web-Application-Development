@@ -1,0 +1,510 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    min-width: 1170px;;
+    line-height: 34px;
+    font-size: 14px;
+    height: 34px;
+    background-color: #222;
+    margin-bottom: 16px;
+}
+header a{
+    padding: 0px 10px;
+    color: white;
+    float: left;
+}
+header .leftnav{
+    float: left;
+}
+header .weather{
+    padding-left: 7px;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+}
+header .weather span{
+    margin-right: 11px;
+}
+header .separate{
+    border-right: 1px solid #3a3a3a;
+}
+header .rightnav{
+    float: right;
+}
+
+main{
+    width: 1170px;
+    margin: 16px auto 0;
+    padding: 0;
+    font-size: 0;
+}
+
+main .category-container{
+    display: inline-block;
+    width: 110px;
+    height: 600px;
+    vertical-align: top;
+    margin-right: 30px;
+    background-color: #fff;
+}
+main .category{
+    width: 110px;
+    height: 600px;
+    background-color: transparent;
+    z-index: 30;
+}
+main .category img{
+    width: 108px;
+    height: 27px;
+    cursor: pointer;
+    margin-bottom: 17px;
+}
+main .category .list{
+    display: block;
+    width: 110px;
+}
+main .category a{
+    display: block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    transition: color,background-color 0.1s ease;
+}
+main .category a:hover{
+    color: white;
+    background-color: #ed4040;
+}
+main .category .list .select{
+    background-color: #ed4040;
+    color: white;
+}
+
+main .content{
+    display: inline-block;
+    width: 660px;
+}
+main .content .simple-news{
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+main .content .single-news{
+    height: 102px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+main .content .single-left{
+    position: relative;
+    width: 158px;
+    height: 100%;
+    margin-right: 16px;
+    float: left;
+}
+main .content .single-right{
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+main .content .single-text{
+    display: inline-block;
+    width: 100%;
+}
+main .content .ugc-news{
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+    height: 158px;
+    overflow: hidden;
+}
+main .content .ugc-author{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+main .content .ugc-icon{
+    float: left;
+    width: 46px;
+    height: 46px;
+    margin-right: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #e8e8e8;
+    text-align: center;
+    cursor: pointer;
+}
+main .content .ugc-desc{
+    overflow: hidden;
+}
+main .content .ugc-name{
+    display: block;
+    font-size: 18px;
+    line-height: 1;
+    color: #222;
+    margin: 3px 0 6px;
+    line-height: 20px;
+}
+main .content .ugc-name:hover{
+    color: rgb(59, 84, 138);
+}
+main .content .ugc-name .dv-icon{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+main .content .ugc-name .vtt-icon{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    padding: 0 3px;
+    margin-left: 5px;
+    background-color: #ff9818;
+    color: #fff;
+    border-radius: 3px;
+}
+main .content .ugc-meta{
+    margin: 0;
+    line-height: 1;
+    font-size: 14px;
+    color: #777;
+}
+main .content .ugc-content{
+    font-size: 14px;
+    color: #222;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    max-height: 57px;
+    overflow: hidden;
+}
+main .content .ugc-content:hover{
+    color: rgb(59, 84, 138);
+}
+main .content .ugc-content a{
+    color: #222;
+}
+main .content .ugc-content a:hover{
+    color: rgb(59, 84, 138);
+}
+main .content .gallery-news{
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+main .content .gallery-list{
+    position: relative;
+    margin: 10px 0;
+    overflow: hidden;
+}
+main .content .gallery-item{
+    float: left;
+    height: 102px;
+    width: 158px;
+    margin-left: 9px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    background: #e8e8e8;
+    overflow: hidden;
+}
+main .content .gallery-item:first-child{
+    margin-left: 0;
+}
+main .content .gallery-more{
+    display: inline-block;
+    width: 88px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #406599;
+    margin-top: 36px;
+}
+main .content .gallery-icon{
+    display: inline-block;
+    color: #fff;
+    margin-right: 2px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: #ff9090!important;
+    vertical-align: middle;
+}
+main .content .title{
+    display: block;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    font-weight: 700;
+    color: #222;
+}
+main .content .title:hover{
+    color: #0c619e;
+}
+main .content .footer{
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+main .content .left-footer{
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+    line-height: 20px;
+}
+main .content .right-footer{
+    float: right;
+    cursor: pointer;
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    padding-right: 5px;
+}
+main .content .resource{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+main .content .tip{
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    padding: 0 6px;
+    border-radius: 10px;
+    background: rgba(0,0,0,.7);
+    font-style: normal;
+    font-size: 12px;
+    color: #fff;
+    height: 22px;
+    line-height: 22px;
+}
+main .content .video{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #ff7920!important;
+    margin-right: 10px;
+    padding: 1px 2px;
+    border: 1px solid #ff7920!important;
+    vertical-align: middle;
+}
+main .content .finance{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #b5743a!important;
+    margin-right: 10px;
+    padding: 1px 2px;
+    border: 1px solid #b5743a!important;
+    vertical-align: middle;
+}
+main .content .society{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #41baad!important;
+    margin-right: 10px;
+    padding: 1px 2px;
+    border: 1px solid #41baad!important;
+    vertical-align: middle;
+}
+main .content .other{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #87a5b5!important;
+    margin-right: 10px;
+    padding: 1px 2px;
+    border: 1px solid #87a5b5!important;
+    vertical-align: middle;
+}
+main .content .info-icon{
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: middle;
+    cursor: pointer;
+}
+main .content .info{
+    display: inline-block;
+    color: #777;
+    font-size: 14px;
+    line-height: 1;
+    vertical-align: middle;
+}
+main .content a.info:hover{
+    color: rgb(59, 84, 138);
+}
+
+main .right{
+    float: right;
+    width: 340px;
+    height: 1000px;
+}
+main .right .search_input{
+    width: 240px;
+    height: 36px;
+    font-size: 14px;
+    padding: 4px 10px 2px;
+    color: #1f2d3d;
+    background-color: #f5f6f7;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px 0 0 4px;
+    outline: 0;
+}
+main .right .search_bt{
+    color: #fff;
+    height: 44px;
+    font-size: 14px;
+    background-color: #208eda;
+    border: 1px solid #208eda;
+    border-radius: 0 4px 4px 0;
+    position: relative;
+    left: -1px;
+    padding: 12px 24px 11px;
+    outline: none;
+    cursor: pointer;
+}
+main .right .login{
+    margin: 16px 0;
+    padding: 20px 20px 12px;
+    background: #f4f5f6;
+}
+main .right .login_in{
+    height: 161px;
+    padding: 20px 28px 15px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    letter-spacing: 0;
+}
+main .right .login_msg{
+    margin: 0;
+    font-size: 12px;
+    line-height: 17px;
+    color: #777;
+}
+main .right .login_bt{
+    display: block;
+    width: 240px;
+    height: 40px;
+    margin: 16px 0 14px 1px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    background: #ed4040;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main .right .login_bt:hover{
+    background-color: #BB7444;
+}
+main .right .login_other{
+    padding: 0;
+    display: block;
+}
+main .right .login_other span{
+    position: absolute;
+    left: 6px;
+    top: 41px;
+    width: 24px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #777;
+}
+main .right .QQ{
+    margin-right: 24px;
+    display: inline-block;
+    position: relative;
+    width: 36px;
+    height: 58px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100% 36px;
+    background-image: url(https://sf3-scmcdn-tos.pstatp.com/obj/goofy/toutiao/toutiao_web_pc/svgs/icon_qq_pc.83d80076.svg)
+}
+main .right .Weixin{
+    display: inline-block;
+    position: relative;
+    width: 36px;
+    height: 58px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100% 36px;
+    background-image: url(https://sf3-scmcdn-tos.pstatp.com/obj/goofy/toutiao/toutiao_web_pc/svgs/icon_weixin_pc.7eab8c3d.svg)
+}
+main .right .addition{
+    width: 300px;
+    border-top: 2px solid #ed4040;
+    background-color: #f4f5f6;
+    margin-bottom: 18px;
+    padding: 17px 20px 20px;
+}
+main .right .addition_title{
+    color: #222;
+    padding: 0;
+    line-height: 20px;
+    margin: 0 0 18px 0;
+    padding-top: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+main .right .link{
+    overflow: hidden;
+    margin: 0 -20px -20px 0;
+    padding: 0;
+}
+main .right .link li{
+    float: left;
+    margin: 0 20px 20px 0;
+    list-style: none;
+}
+main .right .link li a{
+    color: #777;
+    line-height: 1.4;
+    font-size: 14px;
+}
+main .right .company{
+    padding: 8px 20px;
+    background-color: #f4f5f6;
+    line-height: 2;
+    font-size: 14px;
+    text-align: left;
+}
+main .company img{
+    vertical-align: middle;
+    margin-right: 1px;
+    margin-bottom: 3px;
+    width: 20px;
+    height: 20px;
+}
+main .company p{
+    color: #777;
+    margin: 0;
+}
+main .company a{
+    cursor: pointer;
+    color: #777;
+    margin: 0;
+}
+main .company span{
+    display: block;
+    color: #777;
+    margin: 0;
+}
