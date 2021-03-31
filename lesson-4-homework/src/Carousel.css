@@ -1,0 +1,79 @@
+.Carousel {
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.Left-btn {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  border: 0 solid rgba(21, 180, 180, 0.4);
+  border-radius: 20%;
+  transform: translateY(-50%) rotate(-45deg);
+  background-color: transparent;
+  z-index: 10;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Right-btn {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  border: 0 solid rgba(21, 180, 180, 0.4);
+  border-radius: 20%;
+  transform: translateY(-50%) rotate(45deg);
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Content-show {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Content-list {
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  touch-action: none;
+}
+
+.Content {
+  vertical-align: middle;
+  display: inline-block;
+  outline: none;
+}
+
+.Dot-list {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0;
+}
+
+.Dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border: 3px solid #555;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 6px;
+}
+.Dot-select {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-color: #555;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0 6px;
+}
