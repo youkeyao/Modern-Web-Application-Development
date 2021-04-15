@@ -1,0 +1,83 @@
+.MenuBar {
+  top: 132px;
+  height: 111px;
+  background: #f4f5f6;
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+.more {
+  float: right;
+  position: relative;
+}
+.shadow {
+  left: -30px;
+  height: 108px;
+  width: 30px;
+  position: absolute;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAABXCAQAAACjUt0DAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAAEgAAABIAEbJaz4AAAAJdnBBZwAAABIAAABXAK421QoAAAFiSURBVEjH1ZbbtoMgDERnKP//yaYPVSAhF077dHQtamU7k0RKAxwcPCF4ItF+tWMNsVZS91uJhNlRX7FGPMgizOrEObJSiZUUAnRkR6q0qnErm7Lhc9UDBaXUt0kN0FOaOo4SQ5BRCahOA3HT5KwTE50GZhV37VazJKYljjE2SE+sPsittC1XW/FmgNVsZJcvuhvrAbLqffNadPXLYgaLzs8wWSo6rk9FYdeBUW/x1DRswfS6ysuNlcDZ7ssTSCpIfDsZn/J8b+Omh8pjR/X8DkuWndwnINpOlukFbtvzVslAEmF+TCMaCC4fkr8oKUgVzmQ4IBojHfqFqwd28O0S6AXA7ib2P+HOTlzLcXZ3+tFz6yRObiOmGY+3k6ev5XN97Uq7FoCXkl5HTrT6tQiw2u1aY/TrZF551jyMFPZiOqW1O5zXiJx1PV/2Tw52tD8ddYc/9Zlq7qhBrlrtuhX/98cbycGBFpNaiv0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTQtMDItMjdUMTc6NDQ6NDErMDg6MDDFbrv7AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE0LTAyLTI3VDE3OjQ0OjQxKzA4OjAwtDMDRwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII=) no-repeat center right;
+  background-size: contain;
+  background-color: rgba(244, 245, 246, 0.3);
+}
+.moreBtn {
+  line-height: 108px;
+  font-size: 105px;
+  background-size: 60px;
+  height: 108px;
+  width: 120px;
+  display: block;
+  position: relative;
+  color: #f85959;
+  text-align: center;
+}
+.cross {
+  display: block;
+  position: relative;
+  height: 51px;
+  width: 51px;
+  opacity: 0.9;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.cross::before, .cross::after {
+  height: 51px;
+  position: absolute;
+  content: ' ';
+  width: 4px;
+  background-color: #f85959;
+}
+.cross::before {
+  transform: rotate(90deg);
+}
+
+.menuList {
+  font-size: 12px;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.menuBtn {
+  color: #505050;
+  margin: 15px 0 15px 15px;
+  height: 78px;
+  line-height: 78px;
+  font-size: 51px;
+  padding-right: 30px;
+  padding-left: 30px;
+  white-space: nowrap;
+  display: inline-block;
+}
+.select {
+  color: #f85959;
+  margin: 15px 0 15px 15px;
+  height: 78px;
+  line-height: 78px;
+  font-size: 51px;
+  padding-right: 30px;
+  padding-left: 30px;
+  white-space: nowrap;
+  display: inline-block;
+}

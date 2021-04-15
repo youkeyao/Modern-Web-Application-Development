@@ -1,0 +1,23 @@
+.Home {
+  margin: 0;
+  padding: 0;
+}
+
+.Home header {
+  display: block;
+  z-index: 999;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Home main {
+  margin-top: 240px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0px;
+}

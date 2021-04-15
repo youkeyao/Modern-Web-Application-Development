@@ -1,0 +1,58 @@
+.page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.5);
+}
+.popup {
+  margin-left: -405px;
+  margin-top: -338px;
+  height: 675px;
+  width: 810px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+}
+.popup p {
+  margin-bottom: 72px;
+  margin-top: 18px;
+  font-size: 51px;
+  text-align: center;
+  color: #a5a5a5;
+  line-height: 54px;
+}
+.banner {
+  height: 363px;
+  width: 495px;
+  margin-left: 162px;
+  margin-top: 30px;
+  background: url(//sf1-scmcdn2-tos.pstatp.com/mobile_list/image/popup_banner_6006ac97.png) no-repeat;
+  background-size: contain;
+}
+.download {
+  font-size: 60px;
+  margin-bottom: 45px;
+  margin-top: 15px;
+  line-height: 120px;
+  width: 660px;
+  margin-left: 75px;
+  background: #ff6762;
+  text-align: center;
+  border-radius: 10px;
+  text-shadow: 0px 1px 1px #f0221c;
+  color: #fff;
+}
+.close {
+  background-size: 51px;
+  height: 96px;
+  width: 120px;
+  background: url(//sf1-scmcdn2-tos.pstatp.com/mobile_list/image/popup_banner_close_e6f62910.png) no-repeat center;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}

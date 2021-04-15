@@ -1,0 +1,53 @@
+.BottomBar {
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 100%;
+  color: #222;
+  display: block !important;
+  bottom: 0px;
+}
+.download {
+  height: 150px;
+  padding: 0 45px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  width: 100%;
+}
+.logoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 108px;
+  height: 108px;
+  background: url(//s3.bytecdn.cn/growth/fe_sdk/image/banner_toutiao_icon_bce0b302.png) no-repeat;
+  overflow: hidden;
+  background-size: 100% 100%;
+  border: 1px solid #eee;
+  border-radius: 7px;
+}
+.name {
+  font-size: 42px;
+  margin-left: 24px;
+  line-height: 45px;
+  color: #222;
+}
+.open {
+  border-radius: 42px;
+  line-height: 84px;
+  font-size: 42px;
+  height: 84px;
+  width: 216px;
+  font-weight: 500;
+  background-image: linear-gradient(90deg, red, #ff5050);
+  color: #fff;
+  text-align: center;
+}
