@@ -1,0 +1,77 @@
+.container {
+  position: relative;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+  background-color: #444;
+}
+
+.currentBar {
+  position: absolute;
+  transform: translateY(0);
+  right: 10px;
+  height: 20%;
+  width: 5px;
+  border-radius: 3px;
+  background-color: #bbb;
+  cursor: pointer;
+}
+
+.item {
+  flex-shrink: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #555;
+}
+.item span {
+  color: #eee;
+  margin: 0 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.name {
+  flex-grow: 1;
+  cursor: pointer;
+}
+.name:hover {
+  color: #aaa;
+}
+.songDetail {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.length {
+  width: 40px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1080px) {
+  .singer {
+    display: none;
+  }
+  .songDetail {
+    width: auto;
+  }
+}
+@media (max-width: 960px) {
+  .singer {
+    display: inline;
+  }
+  .songDetail {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .singer {
+    display: none;
+  }
+  .songDetail {
+    width: auto;
+  }
+}
