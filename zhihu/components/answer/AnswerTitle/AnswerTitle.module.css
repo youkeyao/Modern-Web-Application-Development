@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 17.5px;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 12px;
+  font-weight: bold;
+  color: #777;
+}

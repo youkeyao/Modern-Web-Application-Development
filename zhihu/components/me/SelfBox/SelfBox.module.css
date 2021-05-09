@@ -1,0 +1,132 @@
+.container {
+  width: 100%;
+  padding: 12px 12px 0;
+}
+
+.nameBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.nameLeft {
+  display: flex;
+  align-items: center;
+}
+.nameLeft img {
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.saltValue {
+  display: flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-size: 12px;
+  background-color: #e9e9f0;
+  color: blue;
+  border-radius: 10px;
+}
+.saltIcon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  margin-right: 6px;
+  background-color: #5A5ABE;
+}
+.saltIcon::before {
+  font-size: 12px;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  content: "\f004";
+  transform: scale(0.4);
+}
+.personalPage {
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.recordBox {
+  display: flex;
+  background-color: #fff;
+  margin: 8px 0;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+.recordItem {
+  width: 0;
+  flex-grow: 1;
+}
+.recordItem:last-child .recordName {
+  border: 0;
+}
+.recordName {
+  text-align: center;
+  font-size: 12px;
+  border-right: 1px solid #aaa;
+}
+.recordNum {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.VIPBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0cc;
+  margin: 8px 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.VIPText1 {
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3C3C0A;
+}
+.VIPText2 {
+  font-size: 12px;
+  padding: 5px 0 0;
+  color: #969628;
+}
+.VIPBtn {
+  width: 90px;
+  height: 34px;
+  border-radius: 17px;
+  border: 0;
+  outline: none;
+  background-image: linear-gradient(to Right, #dcecaa, 60%, #c8c828);
+  color: #3C3C0A;
+}
+
+.funcBox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+.funcIcon {
+  flex-basis: 25%;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.funcIcon img {
+  display: block;
+  height: 25px;
+  margin: 3px auto;
+}

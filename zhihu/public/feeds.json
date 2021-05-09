@@ -1,0 +1,160 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "鸿蒙做到兼容 Android 是怎么做到的？",
+      "avatar": "https://pic1.zhimg.com/v2-7f4f9d491947c9b1e000c713cdd1ebe2_xs.jpg?source=1940ef5c",
+      "name": "文白",
+      "info": "提供手机，电脑方面咨询，不收费，因为这是我的兴趣",
+      "content": "人家楼主自己就是用的华为，曝光了下鸿蒙就是安卓就被网暴了，真可怕，我也被海军网暴了 好熟悉的机器人啊 我先跟你讲一个逻辑，安卓能通过更新系统变成iOS吗？iOS能通过系统更新变成安卓吗，win系统运行安卓也是通过虚拟机进行的",
+      "img": "https://pic3.zhimg.com/50/v2-9172f2294c7188a2dfccd7cc87c58330_400x224.jpg",
+      "agree": 1030,
+      "comment": 1232
+    },
+    {
+      "id": 1,
+      "title": "实验室有人用服务器挖矿该怎么办?",
+      "avatar": "https://pic1.zhimg.com/aadd7b895_xs.jpg?source=1940ef5c",
+      "name": "匿名用户",
+      "content": "其实我也遇到了相同的问题 然后我就和师兄说呀 “师兄你在做什么？” “啊我在跑程序” “啊，师兄的程序很大呀，机器叫了一个多月了” “是的” 默默给他看了ETH terminal... “师兄是在跑这个程序吗？”",
+      "agree": 2151,
+      "comment": 76
+    },
+    {
+      "id": 1,
+      "title": "如何看待观点「华为没有核心技术，因为芯片用的是ARM（安谋）架构，一旦被停止授权，就会做不出芯片」？",
+      "avatar": "https://pic4.zhimg.com/v2-f47567eb77c2d90ff8c52464e3e934e1_xs.jpg?source=1940ef5c",
+      "name": "小枣君",
+      "info": "科技话题下的优秀答主",
+      "content": "最近的形势真是风起云涌啊，逼得我将早早写过的文章又翻了出来：首先，知己知彼，方能百战百胜。ARM公司的介绍，大家了解一下：1978年，一家名字叫CPU的公司，悄悄在英国剑桥诞生。",
+      "img": "https://pic4.zhimg.com/50/v2-29d375ed2b2cdc3ba3fb8b5e87aee7d2_400x224.jpg",
+      "agree": 3539,
+      "comment": 252
+    },
+    {
+      "id": 1,
+      "title": "QQ有哪些不为人知的bug?",
+      "avatar": "https://pic1.zhimg.com/v2-66a174327c2cf85bf2da0708f539a4a1_xs.jpg?source=1940ef5c",
+      "name": "依然",
+      "info": "目标是混吃等死到退休的中控员一枚",
+      "content": "只要你泄露过一次账号密码，那么你就上了洗号名单，即便你修改密码也一样被盗号的随意登录。我研究了很久才发现的自己的qq账号频繁被盗原因。很多钓鱼网址会伪装成游戏活动或者其他什么吸引你输入qq账号密码，",
+      "img": "https://pic1.zhimg.com/50/v2-2f4c634f1611a6656bb948898c5d20a8_400x224.jpg",
+      "agree": 1425,
+      "comment": 525
+    },
+    {
+      "id": 1,
+      "title": "为什么到今天还有人觉得win10不如win7？",
+      "avatar": "https://pic3.zhimg.com/v2-eec1615c56f2c32e525218d360cca3c7_xs.jpg?source=1940ef5c",
+      "name": "夜雨",
+      "content": "四更：WIN10还有一个开了微软先河的“壮举”。就是从WIN10开始，微软开始尝试免费了！！！这个“免费”是从两个方面体现的：1。现在的新品牌电脑，基本上都预装正版WIN10，有些品牌还提供有正版OFFICE，而且是永久正版激活。",
+      "img": "https://pic4.zhimg.com/50/v2-a28ebce89b49a397dd983cd1d05fd023_400x224.jpg",
+      "agree": 370,
+      "comment": 255
+    },
+    {
+      "id": 1,
+      "title": "手把手教你实现一个 Python 多线程下载器",
+      "avatar": "https://pic2.zhimg.com/v2-6b1bfece0b5454c6ca4241336b90c455_xs.jpg?source=172ae18b",
+      "name": "顺手牵羊",
+      "info": "Python/量化交易/爬虫/数据挖掘/机器学习/交流",
+      "content": "前言下载文件是我们生活中的一个常见的需求，因此衍生的下载工具也非常多，各有各的优势以及不足之处。作为一个编程爱好者，我喜欢去研究它们是怎么实现文件下载功能的。 我的主要使用的编程语言是 Python ，所以今天我将以 Python 为切入点带你一步步实现一个简易的文件下载器。",
+      "img": "https://pic1.zhimg.com/80/v2-bac03861915c40a86aa3f02325794d9f_400x224.jpg?source=4e949a73",
+      "agree": 7,
+      "comment": 3
+    },
+    {
+      "id": 1,
+      "title": "【WHY】别被“洗脑”了，这才是大部分中国人的工资「真相」",
+      "avatar": "https://pic4.zhimg.com/v2-539d398e670504a955bd27fcd49bb6ae_is.jpg?source=12a79843",
+      "name": "36氪",
+      "info": "创业话题下的优秀答主",
+      "content": "知乎上“月入3到5万的人毫无成就感”，短视频里“月入1万以下的男人不配结婚”，就连在星巴克喝杯咖啡，邻座谈的都是上百万的大生意，为什么全世界仿佛只有我月月白干还倒贴？",
+      "video": "https://pic4.zhimg.com/v2-e2fe92a96abd1260d33fb6192e6ead0f.jpg?source=382ee89a",
+      "agree": 5808,
+      "comment": 1649
+    },
+    {
+      "id": 1,
+      "title": "中国的程序员数量是否已经饱和或者过剩？",
+      "avatar": "https://pic1.zhimg.com/v2-c648e33992d012ec84d87eabf7f1256e_xs.jpg?source=1940ef5c",
+      "name": "太帅不显示用户名",
+      "info": "物理系吊车尾学生",
+      "content": "就我最近半个月找工作体验：凡是JAVA的岗位，大厂上来就是算法题，涉及到的可能会有各种奇奇怪怪的解题思路，如果没准备过，代码写得生疏一点，基本就是一轮游。侥幸过了，也是问一堆谷歌来的技术文章上的东西……",
+      "agree": 2997,
+      "comment": 334
+    },
+    {
+      "id": 1,
+      "title": "你见过的最虐心的案子是什么？",
+      "avatar": "https://pic4.zhimg.com/aadd7b895_xs.jpg?source=1940ef5c",
+      "name": "匿名用户",
+      "content": "初三时有同校高二师哥自杀 玩手机成绩下降，老师叫家长，当众就动了手，手机扔下了楼，他也跟着跳下去了，人没了。 事后他母亲先撞墙自杀，他奶奶紧随其后，一家四口人，最后只剩他爸爸一个。",
+      "agree": 61285,
+      "comment": 2932
+    },
+    {
+      "id": 1,
+      "title": "作为一个有理想的程序员，必读的书都有哪些？",
+      "avatar": "https://pic1.zhimg.com/v2-3e1a647eea07fb3baaaf17ece120c054_xs.jpg?source=1940ef5c",
+      "name": "编程指北",
+      "info": "腾讯科技（深圳）有限公司 后台开发工程师",
+      "content": "读大学期间，我买了很多书，也看了很多技术书，后来发现书不在于多，而在于经典。 读经典的书是站在巨人的肩膀上，看得远、悟得深~ 所以我在这里列出的书，尽量保持少，精简。",
+      "img": "https://pic1.zhimg.com/80/v2-d7a9537446e8aafeb0c5feb8cce72fc5_720w.jpg?source=1940ef5c",
+      "agree": 173,
+      "comment": 5
+    },
+    {
+      "id": 1,
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "avatar": "https://pic4.zhimg.com/v2-369e0fd270538631073ad7bca9e7b2f8_xs.jpg?source=1940ef5c",
+      "name": "色兰色兰你别馋",
+      "info": "过了腊八就是年",
+      "content": "初三的数学课上我胡思乱想，就想怎么才能不劳动挣大钱。突然想到一个好主意，就是先问一个人借五块钱，然后再问另一个人借十块，然后给第一个人还五块，这样我就有五块钱可以花了，",
+      "agree": 5919,
+      "comment": 219
+    },
+    {
+      "id": 1,
+      "title": "印度疫情真如网图上那么严重吗？",
+      "avatar": "https://pic4.zhimg.com/v2-d32a7bfb6cdee0381b5cde8447e97917_xs.jpg?source=1940ef5c",
+      "name": "心远地自偏",
+      "info": "想做历史学家的程序猿",
+      "content": "严不严重我真不知道 但至少有些照片是假的！ 网上流传着：QQ 群、朋友圈也见过多次。街头焚s 、狗啃尸体 ，血腥 、恐怖、惨不忍睹 、人间地狱，这些骇人听闻的标签被贴上。（部分过于恐怖的有头有脚的图已和谐）",
+      "img": "https://pic3.zhimg.com/50/v2-bff18bfbcd61948688a9cd4f50ee6f81_400x224.jpg",
+      "agree": 1609,
+      "comment": 516
+    },
+    {
+      "id": 1,
+      "title": "为什么有人劝别选计算机专业?？",
+      "avatar": "https://pic1.zhimg.com/v2-7916ce21f49e388fe51c95998d6d7c47_xs.jpg?source=1940ef5c",
+      "name": "mafuholic",
+      "info": "一手桥牌一手猫，直接上云霄。",
+      "content": "hh，现在计算机行业已经是所有已知行业中最惨的一个了，没有之一，具体体现为：1、内卷极其严重，答主所在某一本院校，今年招计算机专业人数占总人数的一半多。2、互联网福利吃空殆尽，后来者无利可图，只能后浪推前浪，一起死在沙滩上。",
+      "agree": 515,
+      "comment": 173
+    },
+    {
+      "id": 1,
+      "title": "为什么很多人期望腾讯受到惩罚？",
+      "avatar": "https://pic1.zhimg.com/v2-d36c7089a7ee9768c86ec854bc4b2c94_xs.jpg?source=1940ef5c",
+      "name": "阿飞小心地",
+      "info": "偶尔蹦出两句有道理的话",
+      "content": "因为腾讯亲手杀死了我的“儿子”！！！我是游戏策划，我儿子是一款跟腾讯合作的游戏。一款游戏，有自己的游戏寿命，这个道理我懂。我不是蛮不讲理的人。但是腾讯，为了年终奖，为了所谓的KPI，逼着我们研发公司售卖本不应该售卖的礼包",
+      "img": "https://pic4.zhimg.com/50/v2-a4b5985f373fa7adfda735473b2291ee_400x224.jpg",
+      "agree": 11624,
+      "comment": 588
+    },
+    {
+      "id": 1,
+      "title": "有哪些特征一眼就会被看出是 iPhone 用户？",
+      "avatar": "https://pic1.zhimg.com/da8e974dc_xs.jpg?source=1940ef5c",
+      "name": "肥皂泡泡",
+      "content": "我只说一个功能，足以证明我苹果独一无二的身份，安卓的用户只能干羡慕！没错，这个功能，就是让安卓用户直羡慕的「捷径」！我准备了30个优质的捷径，大家导入直接可以使用，另外还有一份说明哦！",
+      "img": "https://pic2.zhimg.com/50/v2-9eabd63021a087c3672fc2c133122b28_400x224.jpg",
+      "agree": 80,
+      "comment": 107
+    }
+  ]
+}

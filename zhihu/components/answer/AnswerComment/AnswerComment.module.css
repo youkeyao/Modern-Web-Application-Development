@@ -1,0 +1,91 @@
+.container {
+  width: 100%;
+  padding: 12px;
+  background-color: #fff;
+}
+
+.totalComment {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.commentBox {
+  display: flex;
+  margin-bottom: 15px;
+}
+.avatar {
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.myComment {
+  flex-grow: 1;
+  width: 0;
+  height: 30px;
+  padding: 0 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.commenter {
+  display: flex;
+  align-items: center;
+}
+.name {
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+.level {
+  padding: 0 4px;
+  font-size: 12px;
+  color: blue;
+  background-color: #d9d9f0;
+  border-radius: 2px;
+}
+
+.content {
+  font-size: 13px;
+  margin: 8px 5px 8px 0;
+  line-height: 18px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.commentFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+}
+.commentIcon {
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+}
+.commentIcon::before {
+  font-size: 15px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 100;
+  color: #888;
+  content: "\f075";
+}
+.goodIcon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.goodIcon::before {
+  font-size: 15px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 100;
+  color: #888;
+  content: "\f164";
+}

@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.main {
+  width: 100%;
+  padding: 50px 0;
+  background-image: linear-gradient(#fff, #eee);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
